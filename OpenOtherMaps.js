@@ -876,7 +876,7 @@
 
             $('#OOMNY511Img').click(function(){
                 let latlon = get4326CenterPoint();
-                window.open(`https://511ny.org/?latitude=${latlon.lat}&longitude=${latlon.lon}&zoom=${(getLegacyZoom() + 12)}`);
+                window.open(`https://511ny.org/?lat=${latlon.lat}&lng=${latlon.lon}&zoom=${(getLegacyZoom() + 12)}`);
             });
         }
         $('#OOMLA511').remove();
